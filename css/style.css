@@ -1,0 +1,540 @@
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('fonts/gilroyextrabold-webfont.woff2');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family:"gilroy";
+    src: url('fonts/gilroylight-webfont.woff2');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "opensans", sans-serif;
+  font-size: 15px;;
+  line-height: 2;
+  font-weight: 700;
+  color: #000000;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+link{
+  color: #000000;
+}
+
+
+/* --------menu-end*/
+
+.logo{
+font-family: "gilroy";
+text-transform: uppercase;
+font-size: 48px;
+font-weight: 800;
+letter-spacing: 1px;
+}
+
+.navigation-paragraph{
+  font-family:"opensans", sans-serif;
+  font-weight: 100;
+  color: #000000;
+
+}
+
+.navigation-capital {
+  font-family:"gilroy", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  line-height: 27px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.main-navigator {
+
+  font-size: 15px;;
+  line-height: 30px;
+  font-weight: 700;
+  background-color:#f7e296;
+}
+
+.search__input{
+ border: none;
+ background-color: #f7e296;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000000 ;
+    opacity: 0.3;
+    font-family:"opensans", sans-serif;
+    font-weight: 100;
+}
+
+.site-main-navigation-list{
+  list-style: none;
+}
+.site-navigation-item{
+  list-style: none;
+}
+
+.site-main-navigation-list-dropdown{
+  list-style: none;
+}
+
+.site-navigation-dropdown-item-dropdown{
+  list-style: none;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  line-height: 36px;
+}
+
+.site-main-navigation{
+  text-transform: lowercase;
+
+}
+
+.main-navigator{
+  list-style: none;
+}
+
+.login{
+  opacity: 0.3;
+}
+
+.menu-plus{
+  border:none;
+  background-color:#f7e296;
+  opacity:0.3;
+}
+/* --------menu-end*/
+
+/*-----slider*/
+
+.slider__title{
+
+  font-family: "gilroy";
+  text-transform: uppercase;
+  font-size: 179.2px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.slider__item{
+  background-image: linear-gradient(to bottom, #f7e296 50%, white 50%);
+}
+
+.line{
+  background-color: white;
+  width:100px;
+  height:7px
+}
+
+.main-header{
+  font-family: "gilroy";
+  font-size: 47px;
+  line-height: 54px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: ;
+}
+
+.paragraph{
+  font-family:"opensans", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.btn{
+
+  font-family:"gilroy", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  line-height: 27px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  border: none;
+  text-align: bottom;
+  background-color: #f0c52e;
+  background-position: center;
+  width:220px;
+  height:8px;
+
+}
+
+.btn__about{
+
+  font-family:"gilroy", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  line-height: 27px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  border: none;
+  text-align: bottom;
+  background-color: #f0c52e;
+  background-position: center;
+  width:260px;
+  height:8px;
+
+}
+
+.slider__item-characteristics-title{
+  list-style: none;
+}
+
+
+.item__caracteristics-title{
+  font-family:"gilroy", sans-serif;
+  font-weight: 100;
+  color: #000000;
+  font-size: 36px;
+  line-height:normal;
+  letter-spacing: 0.5;
+
+}
+
+.slider__item-caracteristics-text{
+}
+
+.slider__nav-btn{
+  border: none;
+
+}
+.hidden{
+  display: none;
+}
+.categories__list{
+  list-style: none;
+}
+.categories__item-bcgrnd{
+  background-color: #f7e296;
+  width: 160px;
+  height: 160px;
+
+}
+.categories__text{
+  font-family:"gilroy", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  line-height:normal;
+  letter-spacing: 0.5;
+
+}
+
+.switcher__nav-button-active{
+  font-family:"gilroy", sans-serif;
+  font-weight: 700;
+  color: #f7e184;
+  line-height: 27px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  border: none;
+  text-align: bottom;
+  background-color: #000000;
+  background-position: center;
+  width:278px;
+  height:40px;
+
+}
+.switcher{
+  background-color: #e5e5e5;
+}
+
+.line__vertical{
+  height:319px;
+  width: 7px;
+  background-color: #000000;
+}
+
+.brands__logo-list{
+  list-style: none;
+}
+
+.line__black{
+    background-color: black;
+    width:80px;
+    height:7px
+  }
+
+  .paragraph-title{
+    font-family:"gilroy", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    }
+
+    .info__about-list{
+      list-style: none;
+    }
+
+    /* footer*/
+
+
+  .footer{
+    background-color:#464646;
+}
+
+.logo--yellow{
+  color: #ffc600;
+}
+.paragraph_footer{
+  color:white;
+
+}
+.footer__wrapper-nav-list{
+  list-style: none;
+}
+.footer__wrapper-nav-item{
+
+}
+
+.footer__social-list{
+  list-style: none;
+}
+.footer__social-item{
+  opacity: 30%;
+}
+.footer__wrapper-user-nav-list{
+  list-style: none;
+}
+.navigation-footer{
+  color: white;
+}
+
+.icon__nav-footer-vector{
+  color:#ffc600;
+}
+.footer__wrapper-user-item{
+  color: white;
+}
+.footer__wrapper-compare-item{
+  color: white;
+}
+.footer__wrapper-cart-item{
+  color: white;
+}
+.footer__wrapper-phone{
+  color: white;
+}
+
+.paragraph__footer{
+  font-family:"opensans", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: white;
+
+}
+.popup__btn-close{
+
+ border: none;
+background: none;
+}
+
+.popup-writeus{
+ box-shadow: 0 10px 20px rgba(4,6,6,0.2);
+
+}
+.label__popup{
+  font-family: "gilroyextrabold", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+}
+.popup__form-input{
+   border: none;
+   background-color: #f2f2f2;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: rgba(30 30 30 0.4);
+      opacity: 0.3;
+      font-family:"opensans", sans-serif;
+      font-weight: 100;
+      font-size: 14px;
+  }
+
+  /*----catalog--*/
+
+  .inner__page{
+    font-family: "opensans", sans-serif;
+    font-weight: 100;
+    font-size:14px;
+    color: #000000;
+  }
+
+  .bredcrumbs-item{
+  opacity: 0.3;
+  }
+
+  .sub-header{
+    font-family:"gilroy", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 27px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+.filters-container{
+  background-color: #efefef;
+}
+.subheader-container-filter{
+    background-color: #dcdcdc;
+  }
+
+.subheader-container-sort{
+  background-color: #ebebeb;
+}
+
+.range-field-btn{
+  border: none;
+  background-color: none;
+}
+
+
+.range-field{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+}
+
+
+
+.range-field::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    background: url('#');
+    cursor: pointer;
+}
+
+.range-field::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    border: 0;
+    background: url('#');
+    cursor: pointer;
+}
+
+ .filter__divider{
+   width: 201px;
+   height: 2px;
+   background-color: #000000;
+}
+
+.filters__checkbox-list{
+  list-style: none;
+}
+
+.filters__radio-list{
+  list-style:none;
+}
+
+.sort__list{
+  list-style:none;
+}
+.sort__icon-off{
+color:#231f20;
+  opacity: 0.2;
+  border: none;
+
+}
+.sort__icon-on{
+color: #231f20;
+border:none;
+
+}
+/*--- не получается сделать ховер
+.catalogue__item{
+
+}
+.hover {
+  background-color:rgba(238 238 238 0.2);
+}
+
+---*/
+
+.catalogue__item-title{
+  font-family: "gilroyextrabold", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.catalogue__item-price{
+  font-family:"gilroylight", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.btn-add-cart{
+  font-family:"gilroy", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  line-height: 27px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  border: none;
+  text-align: bottom;
+  background-color: #f0c52e;
+  background-position: center;
+  width:220px;
+  height:8px;
+
+}
+.hover-compare{
+  font-family: "opensans", sans-serif;
+  font-weight: 100;
+  font-size:13px;
+  color: rgba(40 40 40 0);
+
+}
+.pagination__body{
+  list-style: none;
+  background-color: #ebebeb;
+}
+.pagination__forward, .pagination__back, .pagination__page{
+font-family:"gilroy", sans-serif;
+font-size: 16px;
+font-weight: 700;
+color: #000000;
+line-height: 27px;
+text-transform: uppercase;
+letter-spacing: 4px;
+}
+
+.pagination_passive{
+  color:rgba(0, 0, 0, 0.3)
+}
