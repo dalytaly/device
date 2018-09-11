@@ -11,41 +11,43 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header container">
     <nav class="main-navigator">
       <a >
-      <h1 class="logo">Device</h1>
+      <div class="logo">Device</div>
       </a>
       <ul class="site-navigation">
-        <li class="site-navigation-item navigation-paragraph">
+        <li class="site-navigation-item navigation-paragraph item-search">
           <form class="search" action="index.html" method="get">
             <svg class="icon__nav" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M15.7 14.3l-3.104-3.104A6.979 6.979 0 0 0 14 7a7 7 0 1 0-7 7 6.963 6.963 0 0 0 4.193-1.404L14.3 15.7c.185.184.38.3.7.3a1 1 0 0 0 1-1 .93.93 0 0 0-.3-.7zM2 7c0-2.762 2.238-5 5-5s5 2.238 5 5-2.238 5-5 5-5-2.238-5-5z"/></svg>
             <input class="search__input" type="search" name="search" placeholder="Поиск по сайту">
           </form>
         </li>
 
-        <li class="site-navigation-item navigation-paragraph">
+        <li class="site-navigation-item navigation-paragraph item-login">
 
           <a href="#"> <svg class="icon__nav" xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12"><path fill="#272525" d="M.032 12h12.937c-.163-2.643-2.074-4.837-4.671-5.543a3.47 3.47 0 0 0 1.687-2.972 3.485 3.485 0 0 0-6.97 0c0 1.264.68 2.361 1.688 2.972C2.106 7.163.194 9.357.032 12z"/>
           </svg><span class="login">Выйти</span></a>
         </li>
 
-        <li class="site-navigation-item navigation-paragraph">
+
+        <li class="site-navigation-item navigation-paragraph item-compare">
           <a href="#"><svg class="icon__nav" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><path d="M8 2h1.984v8H8zM0 3h1.984v7H0zM4 0h2v10H4z"/></svg>
           Сравнить</a>
         </li>
 
-        <li class="site-navigation-item navigation-paragraph">
+        <li class="site-navigation-item navigation-paragraph item-cart">
           <a href="#"><svg class="icon__nav" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path d="M11.864 3.017a.429.429 0 0 0-.327-.154H9.225V4.09c0 .563-.484 1.022-1.08 1.022-.594 0-1.078-.458-1.078-1.022V2.863H4.909V4.09c0 .563-.485 1.022-1.08 1.022-.595 0-1.078-.458-1.078-1.022V2.863H.438a.43.43 0 0 0-.327.154.472.472 0 0 0-.108.358l.776 7.134c.015.806.642 1.455 1.411 1.455h7.595c.77 0 1.396-.649 1.411-1.455l.776-7.134a.476.476 0 0 0-.108-.358z"/><path d="M3.829 4.499c.239 0 .433-.184.433-.409V1.84c0-.632.672-1.022 1.295-1.022h1.079c.655 0 1.078.401 1.078 1.022v2.25c0 .225.194.409.431.409.239 0 .433-.184.433-.409V1.84C8.577.773 7.761 0 6.636 0H5.557c-1.19 0-2.159.826-2.159 1.84v2.25c0 .225.194.409.431.409z"/></svg>
           Корзина</a>
         </li>
-      </ul>
 
+      </ul>
+      <nav class="site-navigator">
       <ul class="site-main-navigation-list">
-        <li class="site-main-navigation-item navigation-capital"><a href="catalog.html">Каталог товаров</a>
+        <li class="site-main-navigation-item navigation-capital item-catalogue"><a href="catalog.html">Каталог товаров</a>
           <button class="menu-plus" type="button"><img src="img/plus.svg" width="16" height="16"></button>
-          <ul class="site-main-navigation-list-dropdown">
-            <!--убрать hidden при написании CSS-->
+          <ul class="site-main-navigation-list-dropdown" >
+
             <li class="site-navigation-dropdown-item-dropdown navigation-paragraph"><a href="#">Виртуальная реальность</a></li>
             <li class="site-navigation-dropdown-item-dropdown navigation-paragraph"><a href="#">Моноподы для селфи</a></li>
             <li class="site-navigation-dropdown-item-dropdown navigation-paragraph"><a href="#">Экшн-камеры</a></li>
@@ -54,30 +56,37 @@
             <li class="site-navigation-dropdown-item-dropdown navigation-paragraph"><a href="#">Квадрокоптеры</a></li>
           </ul>
         </li>
-        <li class="site-main-navigation-item navigation-capital"><a href="#">Доставка</a> </li>
-        <li class="site-main-navigation-item navigation-capital"><a href="#">Гарантия</a> </li>
-        <li class="site-main-navigation-item navigation-capital"><a href="#">Контакты</a></li>
+        <li class="site-main-navigation-item navigation-capital item-delivery"><a href="#">Доставка</a> </li>
+        <li class="site-main-navigation-item navigation-capital item-garancies"><a href="#">Гарантия</a> </li>
+        <li class="site-main-navigation-item navigation-capital item-contact"><a href="#">Контакты</a></li>
       </ul>
+    </nav>
     </nav>
   </header>
 
 
-  <main class="container">
+  <main class="container__slider">
 
-    <section class="slider">
+    <section class="slider container">
       <div class="slider__body">
+
+        <div class="slider__item-img-container">
+          <img class="slider__item-img" src="img/slider-1.png" alt="img" height="486" width="486" >
+        </div>
+
+        <div class="slider-wrapper">
 
           <div class="slider__item">
 
-            <p class="slider__title">01
-            </p>
-
+            <div class="slider__number-wrapper">
             <div class="line"></div>
 
-
-          <div class="slider__item-img-container">
-            <img class="slider__item-img" src="img/slider-1.png" alt="img" height="486" width="486" >
+            <p class="slider__title">01
+            </p>
           </div>
+
+
+
 
           <div class="slider__item-container">
             <h2 class="main-header">Делай селфи,<br> как Бен Стиллер!</h2>
@@ -96,7 +105,10 @@
             </ul>
           </div>
         </div>
+      </div>
 
+    </div>
+<!---
         <div class="slider__item">
 
           <p class="slider__title">02</p>
@@ -122,7 +134,7 @@
                 <p class="slider__item-caracteristics-text">Без подзарядки</p>
               </li>
             </ul>
-            --->
+
             <ul class="slider__list-characteristics">
               <li class="slider__item-characteristics-title"><p class="item__caracteristics-title">48 часов</p>
                 <p class="slider__item-caracteristics-text paragraph">Без подзарядки</p></li>
@@ -160,6 +172,7 @@
           </div>
         </div>
       </div>
+      ----->
 
       <div class="slider__nav">
 
@@ -431,7 +444,7 @@
 
   <footer class="footer">
     <div class="footer__wrapper-logo">
-      <h1 class="logo logo--yellow">Device</h1>
+      <h1 class="logo--yellow">Device</h1>
       <p class="paragraph paragraph_footer">г. Москва, ул. Строителей, 15 </p>
     </div>
 
